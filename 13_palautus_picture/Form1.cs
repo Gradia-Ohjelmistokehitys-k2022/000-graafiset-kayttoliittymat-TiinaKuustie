@@ -15,7 +15,8 @@ namespace _13_palautus_picture
 
             this.DoubleBuffered = true;  //est‰‰ kuvan vilkkumisen
 
-            image = Image.FromFile("D:\\Koulu\\Databases\\Soveltaminen\\1-TiinaKuustie\\Graafiset\\13_palautus_picture\\Kuvat\\HessuHopo.png");
+     
+            image = Properties.Resources.HessuHopo as Bitmap;
             myBitmap = new Bitmap(image);
 
            // e.Graphics.DrawImage(myBitmap, 0, 0, myBitmap.Width, myBitmap.Height);
